@@ -1,0 +1,14 @@
+ny_data_project:
+  outputs:
+    dev:
+      dataset: dbt_local
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: C:\Users\levy.marques\Documents\creds.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: galvanic-flame-384620
+      threads: 4
+      type: bigquery
+  target: dev
